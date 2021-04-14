@@ -17,7 +17,7 @@
 
     // CSS Editor Fluid Height
     document.getElementById("accordion-section-wds_custom_css_section").onclick = function(){
-        document.getElementsByClassName("CodeMirror")[0].style.height = "67vh";
+        document.getElementsByClassName("CodeMirror")[0].style.height = "auto";
     }
 })();
 
