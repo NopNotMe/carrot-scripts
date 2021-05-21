@@ -17,10 +17,18 @@
 
     // CSS Editor Fluid Height
     document.getElementById("accordion-section-wds_custom_css_section").onclick = function(){
-        document.getElementsByClassName("CodeMirror")[0].style.height = "auto";
+        document.getElementsByClassName("CodeMirror")[0].style.height = "67vh";
     }
+
+    // Adjust Collapse
+    document.querySelector("[aria-label='Hide Controls']").onclick = function(){
+        document.getElementById("customize-controls").style.width = "-30%";
+        document.getElementsByClassName("wp-full-overlay-sidebar")[0].style.marginLeft = "-30%";
+    }
+
 })();
 
+//test;
 
 
 // Mobile Device Check
